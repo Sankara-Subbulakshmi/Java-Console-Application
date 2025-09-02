@@ -6,7 +6,8 @@ This repository contains a collection of Java console-based applications and pra
 - Control flow: loops and conditionals  
 - Arrays and Strings  
 - Object-Oriented Programming (OOP) concepts
-- Exception handling  
+- Exception handling
+- Constructors
 - Simple algorithms and problem-solving
 - This repository includes practice programs that demonstrate key OOP principles in Java:
 
@@ -15,6 +16,18 @@ This repository contains a collection of Java console-based applications and pra
 - **Inheritance**: Creating new classes based on existing ones to promote code reuse  
 - **Polymorphism**: Ability of objects to take many forms via method overloading and overriding  
 - **Abstraction**: Simplifying complex reality by modeling classes appropriate to the problem  
-- **Interfaces**: Defining contracts that classes can implement, enabling multiple inheritance  
+- **Interfaces**: Defining contracts that classes can implement, enabling multiple inheritance
+## Java Collections Framework
 
-These concepts are fundamental to writing clean, reusable, and maintainable Java code, and the examples here will help reinforce your understanding through practical application.
+This repository contains practice programs covering the core components of the Java Collections Framework, which provides data structures and algorithms to store, retrieve, and manipulate groups of objects efficiently.
+
+### Core Collection Interfaces
+
+- **List**: Ordered collection that allows duplicates.  
+  - Common implementations: `ArrayList`, `LinkedList`.
+
+- **Set**: Collection that stores **unique elements** (no duplicates).  
+  - Common implementations: `HashSet`, `LinkedHashSet`, `TreeSet`.
+
+- **Map**: Stores key-value pairs with unique keys.  
+  - Common implementations: `HashMap`, `LinkedHashMap`, `TreeMap`.
